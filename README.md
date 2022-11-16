@@ -2,15 +2,20 @@
 
 ## Background & Problem Statement
 
-Food waste accounts for about 12 per cent of the total waste generated in Singapore. Therefore, there is a need to manage food waste holistically. Reducing food wastage, redistributing unsold or excess food, and recycling/treating food waste are important components of our national waste management strategies to work towards Singapore becoming a Zero Waste Nation.
+Food waste is one of the biggest waste streams in Singapore and the amount of food waste generated has grown by around 20% over the last 10 years.
 
-Due to the pandemic, many of us have settled into new routines that involve a lot more working from home & home cooking. However, most of the time we will end up accumulating unused ingredients. If remain unused, these ingredients turn into food wastage.To address this problem, a recipe recommendation system that would take users input for the ingredients, and produce an output of recipes that uses the ingredients were created.
+There are 3 ways to prevent food waste:
+1. Buy, order, or cook what you can finish. Make a shopping list of things you need so you won’t overbuy.
+2. Turn your leftovers or excess ingredients into new dishes instead of throwing them away
+3. Donate excess food to organizations like Singapore Food Bank
+
+In this project, I would like to address item no 2: The leftovers / excess ingredients. Although there are no lack of online recipes out there, often times recipe searching was done before you do your grocery shopping to buy the ingredients. But what if it is turned the other way round? Based on the available ingredients, what are the recipes we can make? To address this problem, a recipe recommendation system that would take users input for the ingredients, and produce an output of recipes that uses the ingredients were created.
 
 
 ## Datasets
 
 The data is scrapped from [Epicurious](http://www.epicurious.com/recipes-menus) and uploaded to Kaggle:
-1. [Epicurious_1](https://www.kaggle.com/datasets/hugodarwood/epirecipes) by Sakshi Goel.
+1. [Epicurious_1](https://www.kaggle.com/datasets/hugodarwood/epirecipes) by Hugodarwood.
 2. [Epicurious_2](https://www.kaggle.com/datasets/pes12017000148/food-ingredients-and-recipe-dataset-with-images) by Sakshi Goel.
 
 Additionally, food ingredients list are also scrapped from:

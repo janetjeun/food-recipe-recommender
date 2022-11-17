@@ -46,11 +46,13 @@ To create the 'Search Recipe' feature, first we filter our dataframe based on th
 **Search Recipe (With Ingredients)**
 ![Search Recipe](dataset/02-recipe-recommendation.jpg)
 
-**Recipe Details**
+**Recipe Details - 1**
 ![Recipe Details](dataset/03-recipe-details.jpg)
+
+**Recipe Details - 2 (With 3 similar recipe recommendation)**
 ![Recipe Details](dataset/03-recipe-details-2.jpg)
 
-**Search Recipe (With Filter)**
+**Search Recipe (With Dietary Preference Filter)**
 ![Search Recipe with Filter](dataset/04-recipe-with-filter.jpg)
 
 

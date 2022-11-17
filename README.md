@@ -41,7 +41,7 @@ To create the 'Search Recipe' feature, first we filter our dataframe based on th
 
 ## Streamlit
 
-![Landing Page]('.dataset/01-landing-page.jpg')
+![Landing Page](dataset/01-landing-page.jpg)
 
 
 ## Summary & Limitation

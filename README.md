@@ -9,7 +9,7 @@ There are 3 ways to prevent food waste:
 2. Turn your leftovers or excess ingredients into new dishes instead of throwing them away
 3. Donate excess food to organizations like Singapore Food Bank
 
-In this project, I would like to address item no 2: The leftovers / excess ingredients. Although there are no lack of online recipes out there, often times recipe searching was done before you do your grocery shopping to buy the ingredients. But what if it is turned the other way round? Based on the available ingredients, what are the recipes we can make? To address this problem, a recipe recommendation system that would take users input for the ingredients, and produce an output of recipes that uses the ingredients were created.
+In this project, I would like to address item no 2: The leftovers / excess ingredients. Although there are no lack of online recipes out there, often times recipe searching was done before you do your grocery shopping to buy the ingredients. But what if it is turned the other way round? Based on the available (excess) ingredients, what are the recipes we can make? To address this problem, a recipe recommendation system that would take users input for the ingredients, and produce an output of recipes that uses the ingredients were created.
 
 
 ## Datasets
@@ -38,6 +38,10 @@ As the second method (BBC Food) are more effective in extracting key ingredients
 To create the 'Search Recipe' feature, first we filter our dataframe based on the input ingredients. Next, we create a TF-IDF to generate embeddings for each ingredients. The IDF measures the importance of a term across the whole corpus. IDF will weigh down terms that are very common across a corpus (in our case words like salt, sugar, olive oil, butter, garlic, etc.) and weighs up rare terms. This is useful for us as it will give us better distinguishing power between recipes as the ingredients that are scaled-down will be ingredients that the user will tend to not give as an input to the recommendation system.
 
 'You might also like' feature are build using content-based recommendation system which enables us to recommend recipes to people based on the original recipes that they selected. To measure the cosine-similarity between recipes, 'tag' features was used. The 'category' feature contains key information such as: the main ingredient of the recipe (i.e. Tomato, Egg), ocassion (i.e. New Year, Christmas, Birthday), the dietary information (i.e. Peanut-Free, Glutten-Free), as well as the timing (i.e. Breakfast, Lunch). An example of a 'category' for 'Lentil, Apple, and Turkey Wrap' is Kid-Friendly, Sandwich, Bean, Fruit, Tomato, turkey, Vegetable, Apple, Lentil, Lettuce.
+
+## Streamlit
+Landing Page
+[Landing Page]('.dataset/01-landing-page.jpg')
 
 
 ## Summary & Limitation

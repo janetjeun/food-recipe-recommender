@@ -40,8 +40,18 @@ To create the 'Search Recipe' feature, first we filter our dataframe based on th
 'You might also like' feature are build using content-based recommendation system which enables us to recommend recipes to people based on the original recipes that they selected. To measure the cosine-similarity between recipes, 'tag' features was used. The 'category' feature contains key information such as: the main ingredient of the recipe (i.e. Tomato, Egg), ocassion (i.e. New Year, Christmas, Birthday), the dietary information (i.e. Peanut-Free, Glutten-Free), as well as the timing (i.e. Breakfast, Lunch). An example of a 'category' for 'Lentil, Apple, and Turkey Wrap' is Kid-Friendly, Sandwich, Bean, Fruit, Tomato, turkey, Vegetable, Apple, Lentil, Lettuce.
 
 ## Streamlit
-
+**Landing Page**
 ![Landing Page](dataset/01-landing-page.jpg)
+
+**Search Recipe (With Ingredients)**
+![Search Recipe](dataset/02-recipe-recommendation.jpg)
+
+**Recipe Details**
+![Recipe Details](dataset/03-recipe-details.jpg)
+![Recipe Details](dataset/03-recipe-details-2.jpg)
+
+**Search Recipe (With Filter)**
+![Search Recipe with Filter](dataset/04-recipe-with-filter.jpg)
 
 
 ## Summary & Limitation
